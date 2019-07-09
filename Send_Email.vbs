@@ -12,4 +12,4 @@ With Email.Configuration.Fields
 .Update 
 End With 
 Email.Send
-#used for sending e-mail
+#used for sending e-mail. Just need to replace the wildcard by the mail address.
