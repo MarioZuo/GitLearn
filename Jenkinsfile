@@ -6,5 +6,19 @@ pipeline {
                 sh 'python --version'
             }
         }
+        stage('test') {
+            steps {
+                echo 'Testing..'
+                sh 'sleep 10'
+                echo 'Test finished'
+            }
+        }
+        stage('deploy') {
+            steps {
+                echo 'Deploying'
+                sh 'sleep 5'
+                echo 'Done!'
+            }
+        }
     }
 }
